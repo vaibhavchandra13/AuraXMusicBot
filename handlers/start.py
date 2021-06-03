@@ -11,9 +11,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-I am 𝗩𝗖𝗣𝗹𝗮𝘆𝗕𝗼𝘁 VC Music Player, an open-source bot that lets you play music in your Telegram groups.
-Maintained by @HEROGAMERS1 ❤
-For source code Join our support group @LaylaSupport.
+I am Grijze a Music Player Bot, an open-source bot that lets you play music in your Telegram groups.
+Created By @GrijzeWolfXD
+For Support Join Our Channel @GrijzeBots.
 Use the buttons below to know more about me.
  </b>""",
       
@@ -22,20 +22,20 @@ Use the buttons below to know more about me.
             [
                 [
                     InlineKeyboardButton(
-                        "Command", url="https://telegra.ph/ĦŘØ-GΔΜŘ-04-02",
+                        "Command", url="https://telegra.ph/Commands-06-03",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Group", url="https://t.me/LaylaSupport"
+                        "Owner", url="https://t.me/GrijzeWolfXD"
                     ),
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "Instagram", url="http://instagram.com/alone.wolf.ig"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Join ChatGroup", url="https://t.me/GIRLS_AND_BOYS_CHATTING"
+                        "Join Channel", url="https://t.me/GrijzeBots"
                     )
                 ]
             ]
@@ -49,15 +49,12 @@ Use the buttons below to know more about me.
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ Do you want to search for a YouTube video?",
+        "Hey, I am Grijze a Music Bot. Note : Please make me admin",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✅ Yes", switch_inline_query_current_chat=""
-                    ),
-                    InlineKeyboardButton(
-                        "No ❌", callback_data="close"
+                        "Instagram", url="http://instagram.com/alone.wolf.ig"
                     )
                 ]
             ]
